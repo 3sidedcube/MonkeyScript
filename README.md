@@ -2,6 +2,18 @@
 
 Install and test application asynchronously on all connected devices via the Android Monkey Tool.
 
+# UI/Application Exerciser Monkey
+
+## Overview
+
+The Monkey is a command-line tool that you can run on any emulator instance or on a device. It sends "random" user events into the system, which acts as a stress test on the app.
+
+## How does it work?
+
+[Check out the Monkey explanation](/scripts/Explanation.md)
+
+# Scripts
+
 ## Install.sh
 
 * Clears data for the given `package name` on **all connected devices**
@@ -9,7 +21,7 @@ Install and test application asynchronously on all connected devices via the And
 
 Template: `install.sh PACKAGE APK`
 
-Example: `install.sh com.jamie.gratitude gratitude.apk`
+Example: `install.sh com.example.app example.apk`
 
 ## Test.sh
 
@@ -18,12 +30,12 @@ Example: `install.sh com.jamie.gratitude gratitude.apk`
 * With the given `number of events`
 
 Additional benefits:
-* Produces consistent event timings as per these findings
+* Produces consistent event timings [as per these findings](/scripts/Explanation.md)
 * Allows you to accurately estimate the duration of the test
 
 Template: `test.sh PACKAGE DELAY EVENTS`
 
-Example: `test.sh com.jamie.gratitude 50 7000`
+Example: `test.sh com.example.app 50 7000`
 
 ## Test-inconsistently.sh
 
@@ -35,4 +47,4 @@ Example: `test.sh com.jamie.gratitude 50 7000`
 
 Template: `test.sh PACKAGE DELAY EVENTS`
 
-Example: `test.sh com.jamie.gratitude 50 7000`
+Example: `test.sh com.example.app 50 7000`
