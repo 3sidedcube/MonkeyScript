@@ -14,7 +14,7 @@ The Monkey is a command-line tool that you can run on any emulator instance or o
 
 ## Install.sh
 
-* Clears data for the given `package name` on **all connected devices**
+* Clears data for the given `package name` on *all connected devices*
 * Installs the given `APK file` on **all connected devices**
 
 Template: `install.sh PACKAGE APK`
@@ -23,7 +23,7 @@ Example: `install.sh com.example.app example.apk`
 
 ## Test.sh
 
-* Tests the given `package name` on **all connected devices**
+* Tests the given `package name` on *all connected devices*
 * With a `delay` between each event
 * With the given `number of events`
 
@@ -39,7 +39,7 @@ Example: `test.sh com.example.app 50 7000`
 
 *If you wish to estimate the duration of the test you should instead use test.sh*
 
-* Tests the given `package name` on **all connected devices**
+* Tests the given `package name` on *all connected devices*
 * With a `delay` between each event
 * With the given `number of events`
 
