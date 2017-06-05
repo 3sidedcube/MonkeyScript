@@ -10,7 +10,7 @@ The Monkey is a command-line tool that you can run on any emulator instance or o
 
 ## How does it work?
 
-[Check out the Monkey explanation](/scripts/Explanation.md)
+[Check out the Monkey explanation](Explanation.md)
 
 # Scripts
 
@@ -30,7 +30,7 @@ Example: `install.sh com.example.app example.apk`
 * With the given `number of events`
 
 Additional benefits:
-* Produces consistent event timings [as per these findings](/scripts/Explanation.md)
+* Produces consistent event timings [as per these findings](Explanation.md)
 * Allows you to accurately estimate the duration of the test
 
 Template: `test.sh PACKAGE DELAY EVENTS`
