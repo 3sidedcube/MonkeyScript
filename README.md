@@ -26,7 +26,7 @@ Example: `install.sh com.example.app example.apk`
 * With the given `number of events`
 
 Additional benefits:
-* Produces consistent event timings [as per these findings](MONKEY-README.md#delaying-events)
+* Produces consistent event timings [as per these findings](MONKEY-README.md#issues-with-calculating-test-duration)
 * Allows you to accurately estimate the duration of the test
 
 Template: `test.sh PACKAGE DELAY EVENTS`
