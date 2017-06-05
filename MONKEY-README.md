@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Monkey is a command-line tool that you can run on any emulator instance or on a device. It sends "random" user events into the system, which acts as a stress test on the app.
+The [Android Monkey](https://developer.android.com/studio/test/monkey.html) is a command-line tool that you can run on any emulator instance or on a device. It sends "random" user events into the system, which acts as a stress test on the app.
 
 ## Monkey events
 The Monkey inputs "random" events to the device that are one of the following types of events:

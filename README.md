@@ -2,9 +2,7 @@
 
 Install & test asynchronously on all connected devices via the [Android Monkey](https://developer.android.com/studio/test/monkey.html)
 
-# UI/Application Exerciser Monkey
-
-## Overview
+# Android Monkey Overview
 
 The Monkey is a command-line tool that you can run on any emulator instance or on a device. It sends "random" user events into the system, which acts as a stress test on the app
 
